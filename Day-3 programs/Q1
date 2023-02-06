@@ -1,0 +1,21 @@
+fibonacci<-numeric(10)
+fibonacci[1]<-fibonacci[2]<-
+for(i in 3:10) fibonacci[i]<-fibonacci[i-2]+fibonacci[i-1]
+print("first 10 fibonacci numbers:")
+print (fibonnaci)
+number=as.integer(readline(prompt="enter a number:"))
+if(num<0){
+}else{
+sum=0
+while(num>0){
+sum=0
+while(num>0)
+{
+sum=sum+num
+num=num-1
+}print(paste("the sum is,sum))
+}
+my_vec<-(1,2,3,4)
+x<-myvec^2
+class(l)
+print(l)
