@@ -1,0 +1,4 @@
+ggplot(data=mtcars)+
+geom_histogram(mapping=aes(x=hp),binwidth=5)+
+ggtitle("histogram of horse power(hp)")+
+xlab("horse power(hp)")
