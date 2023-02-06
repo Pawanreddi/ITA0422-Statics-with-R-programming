@@ -1,0 +1,4 @@
+ggplot(mtcars,aes(x=hp,y=mpg,color=factor(cyl)))+
+geom_points()+
+facet_wrap(~vs)+
+ggtitle(horse power and mileage scatter plot by engine shape and cylinder size")+xlab("mileage(mpg)
