@@ -1,0 +1,13 @@
+#1
+x <- c(21,62,10,53)
+labels <-  c("india","japan","chaina","Mumbai")
+piepercent<- round(100*x/sum(x), 1)
+pie(x, labels = piepercent, main = "City Pie-Chart",col = rainbow(length(x)))
+legend("topright", c("india","japan","chaina","Mumbai"), cex = 0.8,fill = rainbow(length(x)))
+#2
+H <- c(7,12,28,3,41)
+Month <- c("Mar","Apr","May","Jun","Jul")
+barplot(H,names.arg=Month,xlab="Month",ylab="Revenue",col="yellow",main="Revenue chart",border="black")
+#3
+v <- c(19, 23, 11, 5, 16, 21, 32,14, 19, 27, 39, 120, 40, 70, 90)
+hist(v,breaks=4,col="green",border="black")
